@@ -23,12 +23,11 @@ function App() {
 
   return (
     <main>
-      <section className='section-menu'>
-        <div className='titulo'>
-          <h2>Menu Pasteleria Carlota</h2>
-          <div className='underline'></div>
+      <div className='header'>
+        <div className='contenedor-titulo'>
+          <h1 className='titulo'>Menu Pasteleria Carlota</h1>
         </div>
-      </section>
+      </div>
       <Categorias categorias={categorias} filtrarItems={filtrarItems} />
       <Menu items={menuItems} />
     </main>

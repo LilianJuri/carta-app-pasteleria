@@ -1,38 +1,52 @@
-.App {
-  text-align: center;
+.header{
+    background-color: #F595F7;
+    display: flex;
+    justify-content: center;
+    background-image: url("./banner-pasteleria-carlota.jpg");
+    height: 200px;
+    width: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.titulo{
+    font-family: Arial, sans-serif;
+    text-align:center;
+    color: #66093f;
+    margin-top: 30px;
+    text-shadow: -1px 0 #fec6ff, 0 1px #fec6ff, 1px 0 #fec6ff, 0 -1px #fec6ff;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.contenedor-titulo{
+    margin-top: 15px;
+    background-color:hsla(295, 68%, 46%, 0.521);
+    width: 400px;
+    height: 100px;
+    border-radius: 25px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/* CSS */
+
+.filter-btn{
+     display:inline-block;
+     padding: 0.4em 1.2em;
+     border: 0.2em solid #ba19bd;
+     border-radius: 0.12em;
+     box-sizing: border-box;
+     font-family: arial;
+     font-weight: 300;
+     color: #ba19bd;
+     text-align:center;
+     transition: all 0.2s;
+     background-color: #fec6ff;
 }
 
-.App-link {
-  color: #61dafb;
+.filter-btn:hover{
+    color: #da7cdb;
+    background-color: #ba19bd;
+    }
+
+.contenedor-btn{
+    background-color: #ba19bd;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.titulo{
 }
